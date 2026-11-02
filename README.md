@@ -65,3 +65,7 @@ importierten Unterprojekts bleibt unverändert; fremde Inhalte behalten ihre Bed
 Große Medien, Samples und generierte Dateien gehören nicht unkontrolliert in
 Git; siehe docs/STORAGE.md und npm run check:storage. Keine fremden Samples,
 Kontodaten, privaten Aufnahmen oder Zugangsdaten automatisch veröffentlichen.
+
+## Entwicklung und Übergabe
+
+[AGENTS.md](AGENTS.md) bündelt den Einstieg für Entwickler und KI-Agenten; [TESTING.md](TESTING.md) nennt reproduzierbare Prüfungen und deren Grenzen. Der aktuelle Übergabestand steht in [HANDOFF.md](HANDOFF.md).
