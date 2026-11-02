@@ -1,0 +1,7 @@
+build/
+recordings/
+exports/
+node_modules/
+.env*
+*.key
+*.pem
