@@ -1,6 +1,6 @@
 # PROJECT #15: CHIPTUNE / DEMOSCENE
 
-Status: Concept and research
+Status: First local audiovisual prototype, 0.1.0
 Created: 2026-10-28
 Owner: Leterel
 
@@ -140,3 +140,17 @@ Distinguish confirmed decisions from proposals.
 Do not assume that software is installed without checking.
 Do not assume prototype code already exists.
 Do not modify unrelated projects.
+
+## Rastergarten prototype — 2026-11-02
+
+`npm start`, then http://127.0.0.1:8865. Node 22+, no installation of packages.
+Select Start mit Ton; keep volume low. Pause freezes the shared AudioContext
+clock, Stop closes it, and hiding the tab pauses playback. The drawing supports
+the browser's reduced-motion preference. `npm test` checks beat/phrase timing.
+
+Original square-wave melody and sine bass at 112 BPM, procedural pixel creatures,
+perspective grid, rotating title and scrolling text run on the same audio clock.
+The initial phrase contains eight beats (two bars), looped as a generated audio
+buffer. This is an exploratory browser implementation, not a finished artwork.
+No tracker import, 3D engine, model inference or native executable yet.
+Next: browser/audio QA, richer original choreography and a longer composition.
