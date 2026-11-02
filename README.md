@@ -1,4 +1,4 @@
-# PROJECT #15: CHIPTUNE / DEMOSCENE
+# PROJECT #14: CHIPTUNE / DEMOSCENE
 
 Status: First local audiovisual prototype, 0.1.0
 Created: 2026-10-28
@@ -94,7 +94,7 @@ No final framework or model has been selected.
 
 ## Isolation and Safety
 
-- Keep Project #15 independent of all other projects.
+- Keep Project #14 independent of all other projects.
 - Prefer local inference without paid cloud APIs.
 - Restrict coding-agent filesystem access.
 - Use a real sandbox where practical.
@@ -132,7 +132,7 @@ Do not copy existing music, graphics, text or branding.
 
 ## Project Continuity
 
-This GitHub repository is the persistent notebook for Project #15.
+This GitHub repository is the persistent notebook for Project #14.
 
 Future development sessions should read this README first.
 
