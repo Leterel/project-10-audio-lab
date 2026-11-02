@@ -1,7 +1,8 @@
-# Audio Lab — private Code-/Trash-Werkstatt
+# Audio Lab — öffentliche Audio-Code-Werkstatt
 
-Früher `project-10-sonic-pi`. Auf ausdrücklichen Wunsch vom 02.11.2026 privat
-und in `project-10-audio-lab` umbenannt. Die GitHub-Repository-ID bleibt erhalten.
+Früher `project-10-sonic-pi`, jetzt `project-10-audio-lab`. Die endgültige
+Entscheidung vom 02.11.2026 führt Audio Lab und Chiptune Demoscene öffentlich
+zusammen. Die GitHub-Repository-ID bleibt erhalten.
 Hier werden eigene Audio-Code-Skizzen, Live-Performance-Ideen, Tracker-Patterns,
 Wissen und Dokumentation gesammelt. Kein Fork der kompletten Sonic-Pi-Anwendung.
 
@@ -51,11 +52,16 @@ Programmen ausgeführt. Die Kernprüfungen betreffen unseren eigenen Tracker,
 WAV-Daten und Browserabläufe. Keine Software, Modelle oder Treiber automatisch
 installiert. Kein autonomer Agent aktiviert. Keine Zugangsdaten in dieses Repo.
 
-## Privat bleiben
+## Gemeinsame Sammlung und Freigaben
 
-Die neue Privatvorgabe ersetzt für dieses Projekt den früheren allgemeinen
-Open-Source-Auftrag. Keine automatische öffentliche Veröffentlichung und keine
-privaten Experimente in andere öffentliche Repositories kopieren. GitLab erst
-nach verifizierter privater Zielanlage beschreiben. Aufnahmen/Exporte bleiben
-standardmäßig außerhalb von Git. Neue Dateiformate/Engines einzeln testen,
-anstatt universelle Tracker-Unterstützung zu behaupten.
+Chiptune Demoscene ist unter `projects/rastergarten/` integriert und über
+http://127.0.0.1:8870/demos/rastergarten/ erreichbar. Beide Historien und das
+ursprüngliche #14-Repository bleiben erhalten; siehe docs/MERGE-20261102.md.
+
+Der eigene Audio-Lab-Root steht nach ausdrücklicher Freigabe unter MIT
+(siehe LICENSE und LICENSE-SCOPE.md). Die vorhandene MIT-Lizenz des
+importierten Unterprojekts bleibt unverändert; fremde Inhalte behalten ihre Bedingungen.
+
+Große Medien, Samples und generierte Dateien gehören nicht unkontrolliert in
+Git; siehe docs/STORAGE.md und npm run check:storage. Keine fremden Samples,
+Kontodaten, privaten Aufnahmen oder Zugangsdaten automatisch veröffentlichen.

@@ -5,3 +5,18 @@ node_modules/
 .env*
 *.key
 *.pem
+
+# Large assets stay outside ordinary Git until rights, storage and budget review.
+samples/
+media/
+datasets/
+*.wav
+*.flac
+*.mp3
+*.aiff
+*.aif
+*.mp4
+*.mov
+*.mkv
+*.zip
+*.7z

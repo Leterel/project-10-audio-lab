@@ -1,1 +1,1 @@
-{"name":"private-audio-lab","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test/*.test.mjs","render":"node tools/render.mjs"},"engines":{"node":">=22"}}
+{"name":"audio-lab","version":"0.2.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test/*.test.mjs projects/rastergarten/test/*.test.mjs","render":"node tools/render.mjs","check:storage":"node tools/check-storage.mjs"},"engines":{"node":">=22"}}

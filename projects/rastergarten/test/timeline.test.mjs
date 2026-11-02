@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {BPM,MELODY,position,frequency} from '../timeline.mjs';
+test('audio timeline reaches exact beats and wraps complete phrase',()=>{assert.equal(position(60/BPM).beat,1);assert.equal(position(60/BPM/2).step,1);assert.equal(position(MELODY.length/2*60/BPM).step,0);assert.equal(frequency(69),440);assert.equal(frequency(81),880);});
